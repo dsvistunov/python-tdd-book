@@ -33,7 +33,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
                     raise e
                 time.sleep(0.5)
 
-    def test_can_start_a_list_for_one_user(self):
+    def test_can_start_a_list_foe_user(self):
         # Edith has heard about a cool new online to-do app. She goes
         # to check out its homepage
         self.browser.get(self.live_server_url)
