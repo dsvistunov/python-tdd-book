@@ -89,6 +89,8 @@ class ItemValidationTest(FunctionalTest):
         self.get_item_input_box().send_keys(Keys.ENTER)
 
         self.wait_for(lambda: self.get_item_input_box().click())
+        self.wait_for(lambda: self.get_item_input_box().click())
+
 
         self.wait_for(lambda: self.assertFalse(
             self.get_error_element().is_displayed()
